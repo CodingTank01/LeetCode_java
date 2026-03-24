@@ -1,4 +1,4 @@
-1470. Shuffle the Array
+/*1470. Shuffle the Array
 
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
@@ -25,4 +25,15 @@ Constraints:
 
 1 <= n <= 500
 nums.length == 2n
-1 <= nums[i] <= 10^3
+1 <= nums[i] <= 10^3 */
+
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int[] ans = new int[2*n];
+        for(int i=0; i<n; i++){
+            ans[2*i]=nums[i];
+            ans[2*i + 1]=nums[i+n];
+        }
+        return ans;
+    }
+}
