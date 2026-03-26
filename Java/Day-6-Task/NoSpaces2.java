@@ -12,7 +12,7 @@ public class NoSpaces2{
         for(int i=0; i<str1.length(); i++){
             char ch = str1.charAt(i);
             if(ch!=' ') out[ptr++]=ch;
-        } 
+        }
         System.out.print("Output: "+new String(out, 0, ptr)+"\n");
     }
 }
