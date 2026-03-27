@@ -1,6 +1,7 @@
 /*Convert lowercase to uppercase without using built-in methods */
+import java.util.*;
 
-public class Main[
+public class lowertoUpper {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string value: ");
@@ -15,4 +16,4 @@ public class Main[
         
         System.out.print(new String(output)+"\n");
     }
-]
+}

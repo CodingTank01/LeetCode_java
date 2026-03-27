@@ -1,4 +1,5 @@
 /* Ensure all words are separated by a single space */
+import java.util.*;
 
 public class OneSpace{
 

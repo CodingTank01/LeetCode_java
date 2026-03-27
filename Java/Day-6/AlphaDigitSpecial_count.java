@@ -1,6 +1,7 @@
 /*Count and display the number of alphabet, digits and special characters in a string */
+import java.util.*;
 
-public class Main{
+public class AlphaDigitSpecial_count {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string value: ");

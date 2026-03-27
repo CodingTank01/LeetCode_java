@@ -1,8 +1,9 @@
 /* Count the frequency of each character in a string without using additional data structures  */
+import java.util.*; 
 
 public class freqOfChar2{
     
-    public static void main{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string value: ");
         String str1 = sc.nextLine();

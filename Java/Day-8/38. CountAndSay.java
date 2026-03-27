@@ -39,6 +39,7 @@ Constraints:
  
 
 Follow up: Could you solve it iteratively? */
+import java.util.*;
 
 class CountAndSay {
     public String countAndSay(int n) {
