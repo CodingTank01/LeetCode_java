@@ -41,7 +41,7 @@ class Solution {
         if(numRows==1 || s.length()<numRows) return s;
 
         StringBuilder sb = new StringBuilder();
-        int gap = ((numRows-2)*2)+2;
+        int gap = ((numRows)*2)-2;
         for(int i=0; i<numRows; i++){
             if(i==0){
                 for(int j=0; j<s.length(); j+=gap) sb.append(s.charAt(j));
