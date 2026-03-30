@@ -6,7 +6,7 @@ class Zigzag2 {
         boolean down = true;
         int row=0, col=0;
 
-        for(int i=0; i<s.length(); i++){
+        for(int i=0; i<n; i++){
             mat[row][col]=s.charAt(i);
             if(down){
                 if(row==numRows-1){
@@ -31,7 +31,7 @@ class Zigzag2 {
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<numRows; i++){
             for(int j=0; j<n; j++){
-                if(mat[i][j]!=0){
+                if(mat[i][j]!='\0'){
                     sb.append(mat[i][j]);
                 }
             }

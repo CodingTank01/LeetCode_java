@@ -13,8 +13,11 @@ public class Zigzag3 {
         for(int i=0; i<s.length(); i++){
             rows[row].append(s.charAt(i));
 
+            /*
             if(row==0) flag=true;
             else if(row==numRows-1) flag=false;
+            */
+            if(row==0 || row==numRows-1) flag=!flag;
 
             if(flag) row++;
             else row--;
