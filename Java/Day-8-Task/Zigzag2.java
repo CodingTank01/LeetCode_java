@@ -1,4 +1,4 @@
-class ZigzagConversion2 {
+class Zigzag2 {
     static String convert_mat(String s, int numRows) {
         int n = s.length();
         char mat[][] = new char[numRows][n];
