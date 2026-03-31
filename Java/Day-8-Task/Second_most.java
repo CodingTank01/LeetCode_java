@@ -1,6 +1,6 @@
 /* Find the second most occuring character in a string */
 
-class Solution{
+class Second_most {
     public char secondMostOccuring(String s) {
         int max=Integer.MIN_VALUE;
         int second_max=Integer.MIN_VALUE;

@@ -1,6 +1,6 @@
 /* Return the shortest word given in a string */
 
-class Solution{
+class Shortest_word {
     public String shortestWord(String s) {
         int min=Integer.MAX_VALUE;
         int count=0;
