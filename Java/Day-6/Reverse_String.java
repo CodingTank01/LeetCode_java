@@ -19,5 +19,7 @@ public class Reverse_String {
         }
 
         System.out.print("Reversed String: " + new String(arr)+"\n");
+
+        sc.close();
     }
 }

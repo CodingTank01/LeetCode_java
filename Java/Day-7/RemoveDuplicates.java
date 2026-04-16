@@ -8,6 +8,8 @@ public class RemoveDuplicates{
         String str1 = sc.nextLine();
         String out = NoDuplicates(str1);
         System.out.print("Output: " + out+"\n");
+
+        sc.close();
     }
     
     static String NoDuplicates(String s){

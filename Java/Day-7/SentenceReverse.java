@@ -10,6 +10,8 @@ public class SentenceReverse {
         String str1 = sc.nextLine();
         String out = wordRev(str1);
         System.out.print("Output: " + out+"\n");
+
+        sc.close();
     }
 
     static String wordRev(String s){

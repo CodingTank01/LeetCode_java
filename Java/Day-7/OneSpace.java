@@ -10,6 +10,8 @@ public class OneSpace{
         String out = oneSpace(str1);
         System.out.print("Output: " + out+"\n");
 
+        sc.close();
+
     }
 
     static String oneSpace(String s){

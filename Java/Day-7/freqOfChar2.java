@@ -8,6 +8,8 @@ public class freqOfChar2{
         System.out.print("Enter the string value: ");
         String str1 = sc.nextLine();
         freq2(str1);
+
+        sc.close();
     }
 
     static void freq2(String s){

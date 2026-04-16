@@ -10,6 +10,8 @@ public class SentenceReverse2{
         String out = wordRev2(str1);
         System.out.print("Output: " + out+"\n");
 
+        sc.close();
+
     }
 
     static String wordRev2(String s){

@@ -8,6 +8,8 @@ public class Countwords2{
         String str1 = sc.nextLine();
         int n = words3(str1);
         System.out.print("Count: "+n+"\n");
+
+        sc.close();
     }
     
     static int words3(String s){

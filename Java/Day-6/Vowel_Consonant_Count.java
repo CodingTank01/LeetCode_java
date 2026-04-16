@@ -18,6 +18,8 @@ public class Vowel_Consonant_Count {
         }
         
         System.out.print("Vowel count: "+vowel+"\n"+"Consonants count: "+con+"\n");
+
+        sc.close();
     }
 
 }
