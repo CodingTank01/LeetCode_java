@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Student_Main{
+class Student_Write{
     public static void main(String[] args) {
         try{
             Student s1 = new Student("Juli", 1);
