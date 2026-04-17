@@ -2,15 +2,16 @@ import java.io.File;
 import java.nio.file.*;
 import java.util.*;
 
-class NIO {
+class NIO2 {
     public static void main(String[] args) {
         try{    
+            List<String> s = Arrays.asList("Hi", "Hello", "Great");
             Path p = Paths.get("NIO_test.txt");
 
-            Files.writeString(p, "Hello World");
-            String s1 = Files.readString(p);//gives a single line of text
-            
-            System.out.println(s1);
+            Files.write(p, s);
+
+            List<String> s1 = Files.readAllLines(p);
+            System.out.println(s1.toString());
         }
         catch(Exception e) {
             e.printStackTrace();
