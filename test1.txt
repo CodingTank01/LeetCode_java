@@ -1,1 +1,2 @@
-hello hi
+The class has finished.
+The class can go to lunch.
