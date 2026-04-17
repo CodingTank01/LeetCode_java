@@ -10,6 +10,8 @@ public class Palindrome {
         String str1 = sc.nextLine();
         if(palindrome(str1)) System.out.print("The string is a palindrome\n");
         else System.out.print("The string is not a palindrome\n");
+
+        sc.close();
     }
 
     static boolean palindrome(String s){

@@ -15,5 +15,6 @@ public class CaseShift {
         }
         
         System.out.print(new String(output)+"\n");
+        sc.close();
     }
 }

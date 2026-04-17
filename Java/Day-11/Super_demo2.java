@@ -13,6 +13,6 @@ class D extends Data{
 
 public class Super_demo2 {
     public static void main(String[] args){
-        D d = new D();
+        //D d = new D();
     }
 }

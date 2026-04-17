@@ -15,5 +15,6 @@ public class AlphaDigitSpecial_count {
         }
         
         System.out.print("Alphabets: "+alpha+"\nDigits: "+digit+"\nSpecial Characters: "+special+"\n");
+        sc.close();
     }
 }

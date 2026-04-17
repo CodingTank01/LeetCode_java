@@ -43,5 +43,7 @@ class Solution {
         }
 
         for(int[] i:res)System.out.print(Arrays.toString(i)+" ");
+
+        sc.close();
     }
 }

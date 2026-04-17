@@ -9,9 +9,12 @@ public class Countwords1{
         String str = sc.nextLine();
         if(str.trim().isEmpty()){
             System.out.println("Number of words in the string: 0");
+            sc.close();
             return;
         }
         String[] words = str.split("\\s+");
         System.out.println("Number of words in the string: " + words.length);
+
+        sc.close();
     }
 }

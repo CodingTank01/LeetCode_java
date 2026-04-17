@@ -85,5 +85,7 @@ class Exception_Handling {
         finally{
             System.out.println("THANK YOU FOR USING SBI.");
         }
+
+        sc.close();
     }
 }

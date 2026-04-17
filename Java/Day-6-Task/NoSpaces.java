@@ -13,5 +13,7 @@ public class NoSpaces{
             if(ch!=' ') out=out+ch;
         }
         System.out.print("Output: "+out+"\n");
+
+        sc.close();
     }
 }

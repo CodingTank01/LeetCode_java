@@ -15,5 +15,6 @@ public class lowertoUpper {
         }
         
         System.out.print(new String(output)+"\n");
+        sc.close();
     }
 }

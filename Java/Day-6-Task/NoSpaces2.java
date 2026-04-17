@@ -14,5 +14,7 @@ public class NoSpaces2{
             if(ch!=' ') out[ptr++]=ch;
         }
         System.out.print("Output: "+new String(out, 0, ptr)+"\n");
+
+        sc.close();
     }
 }
