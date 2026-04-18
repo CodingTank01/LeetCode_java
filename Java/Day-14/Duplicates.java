@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class Main{
+class Main4{
     public static void main(String[]args){
         int []nums={1,2,3,1,4,2};
         HashSet<Integer> set=new HashSet<>();

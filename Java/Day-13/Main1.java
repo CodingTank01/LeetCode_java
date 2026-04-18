@@ -1,7 +1,7 @@
 //import com.instagram.controller.Model;
 //import com.instagram.service.View;
 
-public class Main {
+class Main1 {
     public static void main(String[] args) {
         /*
         Model model = new Model();
