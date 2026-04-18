@@ -1,19 +1,20 @@
-class Amazon{
+class Amazon2{
     void delivery(){
         System.out.println("product will be delivered");
     }
 }
-class StandardDelivery extends Amazon {
+
+class StandardDelivery extends Amazon2 {
     void delivery(){
         System.out.println("product will be delivered in 5 days");
     }
 }
-class ExpressDelivery extends Amazon {
+class ExpressDelivery extends Amazon2 {
     void delivery(){
         System.out.println("product will be delivered in 2 days");
     }
 }
-class PrimeDelivery extends Amazon {
+class PrimeDelivery extends Amazon2 {
     void delivery(){
         System.out.println("product will be delivered in 1 days");
     }
@@ -21,8 +22,8 @@ class PrimeDelivery extends Amazon {
 
 public class Method_overwriting {
     public static void main(String[] arg){
-        Amazon a;
-        a=new Amazon();
+        Amazon2 a;
+        a=new Amazon2();
         a.delivery();
          a=new StandardDelivery();
         a.delivery();

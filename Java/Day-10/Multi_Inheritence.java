@@ -1,16 +1,16 @@
-class Animal{
+class Animal2{
     void eat(){
         System.out.println("animal eats");
     }
    
     
 }
-class cat extends Animal{
+class Cat2 extends Animal2 {
     void sound(){
         System.out.println("Cat meows");
     }
 }
-class kitten extends cat{
+class Kitten2 extends Cat2{
     void play(){
         System.out.println("Kitten plays");
     }
@@ -19,7 +19,7 @@ class kitten extends cat{
 class Multi_Inheritence
 {
 	public static void main(String[] args) {
-	kitten k=new kitten(); 
+	Kitten2 k=new Kitten2(); 
 	k.sound();
 	k.eat();
 	k.play();

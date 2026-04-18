@@ -1,4 +1,4 @@
- class Amazon {
+ class Amazon1 {
     
     void search(String product){
         System.out.println("product: "+product);
@@ -13,7 +13,7 @@
 
 class Method_overloading{
     public static void main(String args[]){
-        Amazon s1 = new Amazon();
+        Amazon1 s1 = new Amazon1();
         s1.search("laptop");
         s1.search("Phone", 10000);
         s1.search("Headphones", "Wired");

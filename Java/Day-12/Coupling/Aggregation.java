@@ -1,6 +1,6 @@
-class Driver{
+class Driver1{
     String name;
-    Driver(String name){//2
+    Driver1(String name){//2
         this.name=name;//3
     }
     void drive(){//10
@@ -8,9 +8,9 @@ class Driver{
     }
 }
 
-class Car{
-    Driver d;
-    Car(Driver d){//5
+class Car1{
+    Driver1 d;
+    Car1(Driver1 d){//5
         this.d=d;//6
     }
     void start(){//8
@@ -19,10 +19,10 @@ class Car{
     }
 }
 
-public class Aggregation {
+class Aggregation {
     public static void main(String[] args){
-        Driver d = new Driver("John");//1
-        Car c = new Car(d);//4
+        Driver1 d = new Driver1("John");//1
+        Car1 c = new Car1(d);//4
         c.start();//7
     }
 }

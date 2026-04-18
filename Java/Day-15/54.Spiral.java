@@ -14,7 +14,7 @@ Output: [1,2,3,6,9,8,7,4,5]
 
 import java.util.*;
 
-class Solution {
+class Solution1 {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
         int left=0, top=0;

@@ -1,6 +1,6 @@
 package Java.Parking_lot;
-
-class ParkingSpot {
+import java.io.Serializable;
+class ParkingSpot implements Serializable {
     int id;
     String type;
     boolean isOccupied;

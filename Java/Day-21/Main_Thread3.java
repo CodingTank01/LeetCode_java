@@ -29,5 +29,5 @@ class Main_Thread3 {
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
-    }    
+    }
 }

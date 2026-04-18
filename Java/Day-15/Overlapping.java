@@ -19,7 +19,7 @@ They are considered overlapping and merged.
 
 import java.util.*;
 
-class Solution {
+class Solution3 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         ArrayList<int[]> arr=new ArrayList<>();

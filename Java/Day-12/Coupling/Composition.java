@@ -1,14 +1,14 @@
-class Engine{
+class Engine2{
     void on(){
         System.out.println("Engine has been turned on.");
     }
 
 }
 
-class Car{
-    Engine e;
-    Car(){
-        e = new Engine();
+class Car2{
+    Engine2 e;
+    Car2(){
+        e = new Engine2();
     }
     void start(){
         e.on();
@@ -18,7 +18,7 @@ class Car{
 
 public class Composition {
     public static void main(String[] args){
-        Car Audi = new Car();
+        Car2 Audi = new Car2();
         Audi.start();
     }
 }
