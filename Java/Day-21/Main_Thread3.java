@@ -1,4 +1,4 @@
-class Thread2 extends Thread {
+class Thread3 extends Thread {
     public void run() {
         System.out.println("Thread1 is working on run1...");
     }
@@ -13,21 +13,18 @@ class Thread2 extends Thread {
     }
 }
 
-class Main_Thread2 {
+class Main_Thread3 {
     public static void main(String[] args) {
         System.out.println("Main thread work!");
-        Thread2 t1 = new Thread2();// Thread object is created. No thread is created yet.
-
+        Thread t1 = new Thread3();// A Thread object is created referening to Thread class and not Thread3
         t1.start();// Thread is created and started. The thread will execute the run() method according to cpu scheduling
-        t1.run(5);// Executes the run(int a) method  right away without creating a new thread. This is just a normal method call, not a thread execution.
 
+        t1.run();//Works because run() method is present in Thread class.
+        //t1.sum(); This method is not present in Thread class. So it throws compile time error. We cannot call sum method using Thread class reference variable.
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
-
-        t1.run(5,6);
-        
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
         System.out.println("Main thread work!");
