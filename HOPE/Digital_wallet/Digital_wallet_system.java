@@ -1,4 +1,3 @@
-package Java.Digital_wallet;
 import java.util.*;
 
 class Digital_wallet_system {
