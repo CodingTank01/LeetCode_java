@@ -14,8 +14,7 @@ class StreamAPIDemo {
         }
         Collections.sort(r);
         System.out.println(r);
-        
-
+    
         List<Integer> r2 = l.stream()
                             .filter(x->x%2==0)
                             .map(x->x*2)
