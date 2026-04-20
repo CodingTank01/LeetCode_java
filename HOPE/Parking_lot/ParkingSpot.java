@@ -1,4 +1,3 @@
-package Java.Parking_lot;
 import java.io.Serializable;
 class ParkingSpot implements Serializable {
     int id;

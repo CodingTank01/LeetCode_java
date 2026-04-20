@@ -1,5 +1,3 @@
-package Java.Digital_wallet;
-
 class Transaction {
     static int counter = 1;
     int transactionId;

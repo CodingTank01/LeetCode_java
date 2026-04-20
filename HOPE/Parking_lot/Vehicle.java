@@ -1,4 +1,3 @@
-package Java.Parking_lot;
 import java.io.Serializable;
 abstract class Vehicle implements Serializable {
     String number;

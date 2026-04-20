@@ -1,4 +1,3 @@
-package Java.Digital_wallet;
 
 class User {
     int userId;

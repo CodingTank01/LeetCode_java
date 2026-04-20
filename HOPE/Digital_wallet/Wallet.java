@@ -1,4 +1,4 @@
-package Java.Digital_wallet;
+
 
 class Wallet {
     double balance;

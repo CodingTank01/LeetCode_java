@@ -1,5 +1,3 @@
-package Java.Parking_lot;
-
 import java.util.*;
 
 class ParkingLot {
