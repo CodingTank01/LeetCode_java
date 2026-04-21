@@ -22,8 +22,6 @@ class Digital_wallet_system {
             int choice = sc.nextInt();
 
             switch (choice) {
-
-                // ✅ Create User with PIN
                 case 1:
                     System.out.print("Enter user name: ");
                     String name = sc.next();
@@ -37,8 +35,6 @@ class Digital_wallet_system {
                     System.out.println("User created with ID: " + userCounter);
                     userCounter++;
                     break;
-
-                // 💰 Add Money (PIN required)
                 case 2:
                     System.out.print("Enter user ID: ");
                     int uid = sc.nextInt();
@@ -61,8 +57,6 @@ class Digital_wallet_system {
                     double amount = sc.nextDouble();
                     service.addMoney(user, amount);
                     break;
-
-                // 💸 Transfer Money (PIN required)
                 case 3:
                     System.out.print("Enter sender ID: ");
                     int fromId = sc.nextInt();
@@ -89,8 +83,6 @@ class Digital_wallet_system {
                     double transferAmount = sc.nextDouble();
                     service.transferMoney(fromUser, toUser, transferAmount);
                     break;
-
-                // 📊 Check Balance (PIN required)
                 case 4:
                     System.out.print("Enter user ID: ");
                     int checkId = sc.nextInt();
