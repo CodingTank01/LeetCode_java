@@ -1,6 +1,5 @@
 package Stream_practice;
 import java.util.*;
-import java.util.stream.*;
 
 class SecondHighest {
     public static void main(String[] args){
