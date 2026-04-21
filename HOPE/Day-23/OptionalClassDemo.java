@@ -15,7 +15,7 @@ class OptionalClassDemo {
 
         //Using if/else block to catch nullPointerExceptions
         String name2 = null;
-        if(name2!=null) System.out.println("hi");
+        if(name2==null) System.out.println("String is pointing to null.");
 
         //Handling nullPointerException with optional class(JAVA8)
         String name3 = "JAVA";
@@ -29,9 +29,19 @@ class OptionalClassDemo {
         .orElse("No Name");
         System.out.println(res);
 
-        
+        //Handling nullPointerException for a list of Strings
         List<String> s = Arrays.asList("Java", "hi", "hello");
+        Optional<String> op3 = s.stream().findFirst();
+        String res2 = op3
+        .map(String::toUpperCase)
+        .orElse("No data");
+        System.out.println(res2);
         
-
+        List<String> l = Arrays.asList("java", "api", "stream");
+        String res3 = l.stream()
+        .filter(a -> a.length()>5)
+        .findFirst()
+        .orElse("Not found");
+        System.out.println(res3);
     }    
 }
